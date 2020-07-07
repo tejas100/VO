@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
 
 MIDDLEWARE = [
@@ -74,11 +75,18 @@ WSGI_APPLICATION = 'VO.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# import ibm_db_sa.ibm_db_sa
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+  'default': {
+        'ENGINE'   : 'ibm_db_django',
+        'NAME'     : 'BLUDB',
+        'USER'     : 'ttz14422',
+        'PASSWORD' : 'mzr5x7rq28p4p7+b',
+        'HOST'     : 'dashdb-txn-sbox-yp-lon02-07.services.eu-gb.bluemix.net',
+        'PORT'     : '50000',
+        'PCONNECT' :  True,      #Optional property. It is true by default
+  }
 }
 
 
@@ -119,3 +127,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
