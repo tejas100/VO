@@ -1,0 +1,5 @@
+---
+applications:
+ - name: VO
+   random-route: true
+   memory: 128M

@@ -77,17 +77,17 @@ WSGI_APPLICATION = 'VO.wsgi.application'
 
 # import ibm_db_sa.ibm_db_sa
 
-DATABASES = {
-  'default': {
-        'ENGINE'   : 'ibm_db_django',
-        'NAME'     : 'BLUDB',
-        'USER'     : 'ttz14422',
-        'PASSWORD' : 'mzr5x7rq28p4p7+b',
-        'HOST'     : 'dashdb-txn-sbox-yp-lon02-07.services.eu-gb.bluemix.net',
-        'PORT'     : '50000',
-        'PCONNECT' :  True,      #Optional property. It is true by default
-  }
-}
+# DATABASES = {
+#   'default': {
+#         'ENGINE'   : 'ibm_db_django',
+#         'NAME'     : 'BLUDB',
+#         'USER'     : 'ttz14422',
+#         'PASSWORD' : 'mzr5x7rq28p4p7+b',
+#         'HOST'     : 'dashdb-txn-sbox-yp-lon02-07.services.eu-gb.bluemix.net',
+#         'PORT'     : '50000',
+#         'PCONNECT' :  True,      #Optional property. It is true by default
+#   }
+# }
 
 
 # Password validation
