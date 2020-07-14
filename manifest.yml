@@ -1,5 +1,5 @@
 ---
 applications:
- - name: VO
+ - name: tejas
    random-route: true
-   memory: 128M
+   memory: 125M
