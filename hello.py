@@ -6,7 +6,7 @@ import json
 from google.cloud import vision
 from google.cloud.vision import types
 
-# Import directory
+# Import working directory
 dir_path = os.path.dirname(os.path.realpath('check.py'))
 
 # Google vision setup
@@ -50,7 +50,7 @@ elif os.path.isfile('vcap-local.json'):
 # When running this app on the local machine, default the port to 8000
 port = int(os.getenv('PORT', 8000))
 
-@app.route('/')
+@app.route('/upl')
 def root():
     return app.send_static_file('index.html')
 
@@ -80,6 +80,8 @@ def get_visitor():
 #  * [ "Bob", "Jane" ]
 #  * @return An array of all the visitor names
 #  */
+
+
 @app.route('/api/visitors', methods=['POST'])
 def put_visitor():
     user = request.json['name']
@@ -92,15 +94,15 @@ def put_visitor():
         print('No database')
         return jsonify(data)
 
-# Custome made
 
 
-# print(dir_path)
+# File Upload
+
 
 app.config["IMAGE_UPLOADS"] = dir_path+"/static/img"
 
 
-@app.route("/uploadf", methods=["GET","POST"])
+@app.route("/", methods=["GET","POST"])
 def upload_im():
         if request.method == "POST":
 
