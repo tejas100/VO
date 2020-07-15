@@ -1,8 +1,5 @@
-# AI Recruiter – Shortlist a Suitable candidate for specific Job Role
+# VO - AI Recruiter [ IBM Hack Challenge 2020 ]
 
-Python Flask app, help you set up a development environment, deploy to IBM Cloud and add a Cloudant database.
-
-The following instructions are for deploying the application as a Cloud Foundry application.
 
 ## Prerequisites
 
@@ -11,6 +8,8 @@ You'll need the following:
 * [Cloud Foundry CLI](https://github.com/cloudfoundry/cli#downloads)
 * [Git](https://git-scm.com/downloads)
 * [Python](https://www.python.org/downloads/)
+* [Google cloud account] (https://cloud.google.com/)
+* [Google Vision api] (https://cloud.google.com/)
 
 ## 1. Clone the sample app
 
