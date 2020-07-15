@@ -41,7 +41,7 @@ Run the app.
 python hello.py
   ```
 
- View your app at: http://localhost:8000
+View your app at: http://localhost:8000
 
-![](static/rimg/uploadfile.png)
+![](client/static/rimg/uploadfile.png)
 
