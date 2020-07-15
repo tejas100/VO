@@ -45,3 +45,6 @@ View your app at: http://localhost:8000
 
 ![](client/static/rimg/uploadfile.png)
 
+As soon as candidate upload his/her resume vision api will return analyzed data, which is then stored into the ibm cloudant db
+
+
