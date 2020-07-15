@@ -5,12 +5,13 @@ import os, io
 import json
 from google.cloud import vision
 from google.cloud.vision import types
+import pandas as pd
 
 # Import working directory
 dir_path = os.path.dirname(os.path.realpath('check.py'))
 
 # Google vision setup
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = dir_path+'/GoogleV_C.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = dir_path+'/GoogleV_C1.json'
 clientg = vision.ImageAnnotatorClient()
 
 
@@ -120,6 +121,12 @@ def upload_im():
                 image = vision.types.Image(content=content)
                 respo = clientg.text_detection(image=image)
                 print(respo)
+                texts = respo.text_annotations
+                f5=open(dir_path+'/jsons/resume.json','w')
+                for text in texts:
+                    f5.write(text.description+'\n'),
+                    ignore_index=True
+                f5.close()
 
                 return redirect(request.url)
 
@@ -133,3 +140,7 @@ def shutdown():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port, debug=True)
+
+
+
+

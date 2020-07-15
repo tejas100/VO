@@ -1,6 +1,9 @@
 #media file
 static/img/
 
+#Google vision
+GoogleV_C1.json
+
 
 # Logs
 logs
