@@ -1,0 +1,2286 @@
+{
+    "intents": [
+      {
+        "intent": "Recognise_email",
+        "examples": [
+          {
+            "text": "surajmshivkumar@gmail.com",
+            "mentions": [
+              {
+                "entity": "email",
+                "location": [
+                  0,
+                  25
+                ]
+              }
+            ]
+          },
+          {
+            "text": "ashithapgowda@yahoo.in",
+            "mentions": [
+              {
+                "entity": "email",
+                "location": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Tejas55bk@gmail.com",
+            "mentions": [
+              {
+                "entity": "email",
+                "location": [
+                  0,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "description": "Recognises email"
+      },
+      {
+        "intent": "General_Human_or_Bot",
+        "examples": [
+          {
+            "text": "Am I talking to a person or am I talking to an AI?"
+          },
+          {
+            "text": "Are you a human or a bot?"
+          },
+          {
+            "text": "Are you a robot?"
+          },
+          {
+            "text": "Are you even real?"
+          },
+          {
+            "text": "Am I chatting with a human?"
+          },
+          {
+            "text": "Are you real?"
+          },
+          {
+            "text": "How can you prove you are a human?"
+          },
+          {
+            "text": "Is this a computer?"
+          },
+          {
+            "text": "Tell me, are you a human or no?"
+          },
+          {
+            "text": "Are you human?"
+          },
+          {
+            "text": "Am I talking to Watson?"
+          },
+          {
+            "text": "Am I talking to a Bot?"
+          }
+        ],
+        "description": "Ask if speaking to a human or a bot."
+      },
+      {
+        "intent": "Bot_Control_Confirm_Presence",
+        "examples": [
+          {
+            "text": "You around?"
+          },
+          {
+            "text": "Where'd you go?"
+          },
+          {
+            "text": "Am I talking to someone?"
+          },
+          {
+            "text": "Anyone there?"
+          },
+          {
+            "text": "Are you leaving me?"
+          },
+          {
+            "text": "Are you on?"
+          },
+          {
+            "text": "Are you still around?"
+          },
+          {
+            "text": "Are you still here with me?"
+          },
+          {
+            "text": "Are you there?"
+          },
+          {
+            "text": "Did you go somewhere?"
+          },
+          {
+            "text": "Did you hear what I said?"
+          },
+          {
+            "text": "Have I lost you?"
+          },
+          {
+            "text": "I am still holding"
+          },
+          {
+            "text": "Is anybody here?"
+          },
+          {
+            "text": "Is anybody home?"
+          },
+          {
+            "text": "Speak to me if you are there."
+          }
+        ],
+        "description": "Ask the bot to indicate that it is available."
+      },
+      {
+        "intent": "General_Greetings",
+        "examples": [
+          {
+            "text": "Good evening"
+          },
+          {
+            "text": "You there"
+          },
+          {
+            "text": "Who is this?"
+          },
+          {
+            "text": "What's up?"
+          },
+          {
+            "text": "What's new?"
+          },
+          {
+            "text": "Ok take me back"
+          },
+          {
+            "text": "Looking good eve"
+          },
+          {
+            "text": "How r u?"
+          },
+          {
+            "text": "How is it going?"
+          },
+          {
+            "text": "How have you been?"
+          },
+          {
+            "text": "How are you today?"
+          },
+          {
+            "text": "How are things going?"
+          },
+          {
+            "text": "Hi there"
+          },
+          {
+            "text": "Hi advisor"
+          },
+          {
+            "text": "Hey you"
+          },
+          {
+            "text": "Hey twin"
+          },
+          {
+            "text": "Hey there"
+          },
+          {
+            "text": "Hey there all"
+          },
+          {
+            "text": "Hey how are you doing"
+          },
+          {
+            "text": "Hello"
+          },
+          {
+            "text": "Hello I am looking for some help here"
+          },
+          {
+            "text": "Hello Agent"
+          },
+          {
+            "text": "Have you been well?"
+          },
+          {
+            "text": "Greetings"
+          },
+          {
+            "text": "Good to see you"
+          },
+          {
+            "text": "Good morning"
+          },
+          {
+            "text": "Good day"
+          }
+        ],
+        "description": "Greet the bot."
+      },
+      {
+        "intent": "Bot_Control_Approve_Response",
+        "examples": [
+          {
+            "text": "Sweet"
+          },
+          {
+            "text": "That is precisely what I was looking for"
+          },
+          {
+            "text": "That is right"
+          },
+          {
+            "text": "That is the proper response."
+          },
+          {
+            "text": "That is what I need"
+          },
+          {
+            "text": "That's exactly what I want"
+          },
+          {
+            "text": "This is alright"
+          },
+          {
+            "text": "Very well. Let's do it."
+          },
+          {
+            "text": "Yeah, that's it!"
+          },
+          {
+            "text": "Yes"
+          },
+          {
+            "text": "You read my mind"
+          },
+          {
+            "text": "Great"
+          },
+          {
+            "text": "I agree"
+          },
+          {
+            "text": "I like that"
+          },
+          {
+            "text": "Indeed!"
+          },
+          {
+            "text": "Sure thing!"
+          },
+          {
+            "text": "Got it"
+          },
+          {
+            "text": "ok"
+          },
+          {
+            "text": "Affirmative. That's what I'm looking for."
+          },
+          {
+            "text": "All right"
+          },
+          {
+            "text": "Correct"
+          },
+          {
+            "text": "For sure!"
+          }
+        ],
+        "description": "Acknowledge that the response satisfies a question."
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          {
+            "text": "a programing languGE",
+            "mentions": [
+              {
+                "entity": "answer",
+                "location": [
+                  0,
+                  20
+                ]
+              }
+            ]
+          },
+          {
+            "text": "a programing language that helps in everything",
+            "mentions": [
+              {
+                "entity": "answer",
+                "location": [
+                  0,
+                  46
+                ]
+              }
+            ]
+          },
+          {
+            "text": "these are my database example",
+            "mentions": [
+              {
+                "entity": "answer",
+                "location": [
+                  0,
+                  29
+                ]
+              }
+            ]
+          },
+          {
+            "text": "A opensource software"
+          },
+          {
+            "text": "a programming language"
+          }
+        ],
+        "description": "answers"
+      },
+      {
+        "intent": "Bot_Control_Reject_Response",
+        "examples": [
+          {
+            "text": "You didn't understand me"
+          },
+          {
+            "text": "Wrong response"
+          },
+          {
+            "text": "That was wrong, try again"
+          },
+          {
+            "text": "That was not my intent"
+          },
+          {
+            "text": "That sounds like the wrong response"
+          },
+          {
+            "text": "That is not true"
+          },
+          {
+            "text": "That answer is incorrect"
+          },
+          {
+            "text": "Not the right response"
+          },
+          {
+            "text": "No"
+          },
+          {
+            "text": "No I'm fine thanks"
+          },
+          {
+            "text": "It is not what I was looking for"
+          },
+          {
+            "text": "It is not what I want"
+          },
+          {
+            "text": "I wasn't looking for that"
+          },
+          {
+            "text": "I don't want that"
+          },
+          {
+            "text": "I don't need that"
+          },
+          {
+            "text": "I do not think it is the answer?"
+          },
+          {
+            "text": "I disagree"
+          },
+          {
+            "text": "Bad response"
+          },
+          {
+            "text": "You did not understand what I asked"
+          },
+          {
+            "text": "You did not understand what I said"
+          },
+          {
+            "text": "You're misunderstanding me"
+          }
+        ],
+        "description": "Indicate the bot's response does not address a question."
+      },
+      {
+        "intent": "General_Positive_Feedback",
+        "examples": [
+          {
+            "text": "This is so cool"
+          },
+          {
+            "text": "Brilliant!"
+          },
+          {
+            "text": "Can't believe you are that good"
+          },
+          {
+            "text": "How cool is this?"
+          },
+          {
+            "text": "I like what you did there! :)"
+          },
+          {
+            "text": "I'm looking forward to working with you again! :)"
+          },
+          {
+            "text": "Love your work"
+          },
+          {
+            "text": "Ok thank you"
+          },
+          {
+            "text": "Thank you"
+          },
+          {
+            "text": "This is good"
+          },
+          {
+            "text": "This is great"
+          },
+          {
+            "text": "You are awesome"
+          },
+          {
+            "text": "You are great"
+          },
+          {
+            "text": "You are the best"
+          },
+          {
+            "text": "You are wonderful"
+          },
+          {
+            "text": "You gave me exactly what I need!"
+          },
+          {
+            "text": "You the man"
+          },
+          {
+            "text": "You're a genius!"
+          },
+          {
+            "text": "You've been so helpful :)"
+          }
+        ],
+        "description": "Express positive sentiment or gratitude."
+      },
+      {
+        "intent": "Bot_Control_Ignore_Undo",
+        "examples": [
+          {
+            "text": "Wait! Let's back up few steps and do that again"
+          },
+          {
+            "text": "Actually, I take that back"
+          },
+          {
+            "text": "Cancel"
+          },
+          {
+            "text": "Hold on! I think I want to do it differently."
+          },
+          {
+            "text": "I change my mind."
+          },
+          {
+            "text": "I did not mean that?"
+          },
+          {
+            "text": "I didn't mean to do that actually, let's go back"
+          },
+          {
+            "text": "Ignore this"
+          },
+          {
+            "text": "It's not what I mean"
+          },
+          {
+            "text": "Let us redo that again!"
+          },
+          {
+            "text": "Never mind"
+          },
+          {
+            "text": "Never"
+          },
+          {
+            "text": "Not yet"
+          },
+          {
+            "text": "Nothing"
+          }
+        ],
+        "description": "Ask the bot to take one step back."
+      },
+      {
+        "intent": "General_Connect_to_Agent",
+        "examples": [
+          {
+            "text": "Can you connect me with a real person?"
+          },
+          {
+            "text": "Connect me to a live operator please."
+          },
+          {
+            "text": "Contact person"
+          },
+          {
+            "text": "Could you please transfer me to your master?"
+          },
+          {
+            "text": "Customer service representative please."
+          },
+          {
+            "text": "Yes, take me to a real person"
+          },
+          {
+            "text": "Where is the closest agent?"
+          },
+          {
+            "text": "Send me to an agent"
+          },
+          {
+            "text": "Put me through to someone"
+          },
+          {
+            "text": "Pls connect"
+          },
+          {
+            "text": "Please let me talk to a human being."
+          },
+          {
+            "text": "Please connect me to a live agent"
+          },
+          {
+            "text": "Please assist me to get to an agent"
+          },
+          {
+            "text": "Operator please"
+          },
+          {
+            "text": "Need help from human"
+          },
+          {
+            "text": "Is there anyone there I can actually talk to for real?"
+          },
+          {
+            "text": "I would like to speak to someone"
+          },
+          {
+            "text": "I would like to speak to a human"
+          },
+          {
+            "text": "I want an agent to help me"
+          },
+          {
+            "text": "I want agent"
+          },
+          {
+            "text": "I want a manager"
+          },
+          {
+            "text": "I need to speak to a representative. How would I go about doing so?"
+          },
+          {
+            "text": "I don't want to talk to you"
+          },
+          {
+            "text": "I don't want to talk to a bot."
+          },
+          {
+            "text": "I want to talk to a person"
+          },
+          {
+            "text": "A real agent, please."
+          },
+          {
+            "text": "How can I skip the recorded menu and go straight to a live person?"
+          },
+          {
+            "text": "Hi can you transfer me"
+          },
+          {
+            "text": "Do not want a robot?"
+          },
+          {
+            "text": "Agent help"
+          },
+          {
+            "text": "Call agent"
+          },
+          {
+            "text": "Can I connect to an agent?"
+          },
+          {
+            "text": "Can I speak to a human please?"
+          },
+          {
+            "text": "Can I speak to a live person?"
+          },
+          {
+            "text": "Can I speak to an advisor?"
+          },
+          {
+            "text": "Can I speak with somebody?"
+          },
+          {
+            "text": "Can I talk to someone?"
+          },
+          {
+            "text": "Can you assist me to connect to an agent?"
+          }
+        ],
+        "description": "Request a human agent."
+      },
+      {
+        "intent": "General_Agent_Capabilities",
+        "examples": [
+          {
+            "text": "What kinds of things can you do?"
+          },
+          {
+            "text": "How do I use you?"
+          },
+          {
+            "text": "I do not know what to ask"
+          },
+          {
+            "text": "Can you please give me a list of the types of things you can help me with?"
+          },
+          {
+            "text": "Can you tell me what services you are able to help me with?"
+          },
+          {
+            "text": "Do you have a list of things I can talk to you about?"
+          },
+          {
+            "text": "Help now"
+          },
+          {
+            "text": "Hi, what do you do?"
+          },
+          {
+            "text": "How can I use you?"
+          },
+          {
+            "text": "How can you help me?"
+          },
+          {
+            "text": "How can you solve my problems?"
+          },
+          {
+            "text": "I'd like to know what type of questions you can answer for me."
+          },
+          {
+            "text": "Is there anything you can help me with?"
+          },
+          {
+            "text": "Tell me about what kind of things you do?"
+          },
+          {
+            "text": "Tell me something"
+          },
+          {
+            "text": "What are my options that you can help with?"
+          },
+          {
+            "text": "What are my options?"
+          },
+          {
+            "text": "What are you able to deal with?"
+          },
+          {
+            "text": "What are you able to understand?"
+          },
+          {
+            "text": "What are you capable of?"
+          },
+          {
+            "text": "What are you good at?"
+          },
+          {
+            "text": "What are you used for?"
+          },
+          {
+            "text": "What are your skills?"
+          },
+          {
+            "text": "What can I ask you to do?"
+          },
+          {
+            "text": "What do you do?"
+          },
+          {
+            "text": "What do you handle?"
+          },
+          {
+            "text": "What else can you help me with?"
+          },
+          {
+            "text": "What features are in here?"
+          },
+          {
+            "text": "What is this 4?"
+          },
+          {
+            "text": "Where can I find the frequently asked questions?"
+          }
+        ],
+        "description": "Request capabilities of the bot."
+      },
+      {
+        "intent": "General_Jokes",
+        "examples": [
+          {
+            "text": "Do you have humor?"
+          },
+          {
+            "text": "Do you have a joke?"
+          },
+          {
+            "text": "Can you tell me a joke?"
+          },
+          {
+            "text": "Can you tell a joke?"
+          },
+          {
+            "text": "Are there jokes?"
+          },
+          {
+            "text": "Tell me something funny"
+          },
+          {
+            "text": "What do you do for fun?"
+          },
+          {
+            "text": "What is your favorite joke?"
+          },
+          {
+            "text": "Another joke"
+          },
+          {
+            "text": "Tell me a joke"
+          },
+          {
+            "text": "Surprise me with something hilarious"
+          },
+          {
+            "text": "One more joke"
+          },
+          {
+            "text": "I'm bored"
+          },
+          {
+            "text": "I want a joke"
+          },
+          {
+            "text": "I am getting bored"
+          },
+          {
+            "text": "Do you like humor?"
+          },
+          {
+            "text": "Do you like fun?"
+          }
+        ],
+        "description": "Request a joke."
+      },
+      {
+        "intent": "Bot_Control_Standby",
+        "examples": [
+          {
+            "text": "Can you wait for me?"
+          },
+          {
+            "text": "Can you give me a moment?"
+          },
+          {
+            "text": "Be back later"
+          },
+          {
+            "text": "Be patient with me"
+          },
+          {
+            "text": "Back again soon"
+          },
+          {
+            "text": "Wait"
+          },
+          {
+            "text": "Out for a break"
+          },
+          {
+            "text": "Need a minute here"
+          },
+          {
+            "text": "Let me see"
+          },
+          {
+            "text": "Keep holding"
+          },
+          {
+            "text": "Just hold on"
+          },
+          {
+            "text": "Just a sec"
+          },
+          {
+            "text": "In a moment"
+          },
+          {
+            "text": "I would like to put you on hold"
+          },
+          {
+            "text": "I will be back"
+          },
+          {
+            "text": "I want stop a moment"
+          },
+          {
+            "text": "Hold on"
+          },
+          {
+            "text": "Give me a second"
+          },
+          {
+            "text": "Give me a moment"
+          },
+          {
+            "text": "Give me a few minutes to get together"
+          }
+        ],
+        "description": "Indicate a delay in providing input to the bot."
+      },
+      {
+        "intent": "General_Ending",
+        "examples": [
+          {
+            "text": "I have got to go"
+          },
+          {
+            "text": "I d like to stop doing this"
+          },
+          {
+            "text": "I am out of here"
+          },
+          {
+            "text": "I am leaving"
+          },
+          {
+            "text": "Hey bot go away"
+          },
+          {
+            "text": "Have a nice day?"
+          },
+          {
+            "text": "Goodbye"
+          },
+          {
+            "text": "Good. bye."
+          },
+          {
+            "text": "Going now"
+          },
+          {
+            "text": "Get lost"
+          },
+          {
+            "text": "Finished now, good bye"
+          },
+          {
+            "text": "Ending this session"
+          },
+          {
+            "text": "End trial"
+          },
+          {
+            "text": "Cya later"
+          },
+          {
+            "text": "Catch you later"
+          },
+          {
+            "text": "Bye now"
+          },
+          {
+            "text": "Bye bye"
+          },
+          {
+            "text": "Go off"
+          },
+          {
+            "text": "Go away"
+          },
+          {
+            "text": "I want to quit"
+          },
+          {
+            "text": "I'm done"
+          },
+          {
+            "text": "Im done"
+          },
+          {
+            "text": "Im good thank you"
+          },
+          {
+            "text": "I'm leaving now"
+          },
+          {
+            "text": "It was nice chatting with you"
+          },
+          {
+            "text": "Ok goodbye"
+          },
+          {
+            "text": "See you later"
+          },
+          {
+            "text": "See you"
+          },
+          {
+            "text": "Shut up"
+          },
+          {
+            "text": "Stop doing this"
+          },
+          {
+            "text": "Stop talking to me"
+          },
+          {
+            "text": "Thank you for your time"
+          },
+          {
+            "text": "Thanks, bye!"
+          },
+          {
+            "text": "Thanks very much, bye!"
+          },
+          {
+            "text": "That is all"
+          },
+          {
+            "text": "That's everything"
+          },
+          {
+            "text": "Time to go"
+          }
+        ],
+        "description": "End the conversation."
+      },
+      {
+        "intent": "name",
+        "examples": [
+          {
+            "text": "Ashitha",
+            "mentions": [
+              {
+                "entity": "name",
+                "location": [
+                  0,
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "text": "I'm Ashitha",
+            "mentions": [
+              {
+                "entity": "name",
+                "location": [
+                  4,
+                  11
+                ]
+              }
+            ]
+          },
+          {
+            "text": "my name is smith",
+            "mentions": [
+              {
+                "entity": "name",
+                "location": [
+                  11,
+                  16
+                ]
+              }
+            ]
+          },
+          {
+            "text": "paranehsa k t",
+            "mentions": [
+              {
+                "entity": "name",
+                "location": [
+                  0,
+                  13
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Smith blake",
+            "mentions": [
+              {
+                "entity": "name",
+                "location": [
+                  0,
+                  11
+                ]
+              }
+            ]
+          },
+          {
+            "text": "I am ashitha",
+            "mentions": [
+              {
+                "entity": "name",
+                "location": [
+                  5,
+                  12
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Shyla"
+          },
+          {
+            "text": "Suraj"
+          },
+          {
+            "text": "Tejas"
+          },
+          {
+            "text": "Ash"
+          },
+          {
+            "text": "i am daisy"
+          },
+          {
+            "text": "Hey, I'm Trupthi"
+          },
+          {
+            "text": "smith"
+          },
+          {
+            "text": "Ashitha P Gowda",
+            "mentions": [
+              {
+                "entity": "name",
+                "location": [
+                  0,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "description": "Identifies name"
+      },
+      {
+        "intent": "Bot_Control_Clarification",
+        "examples": [
+          {
+            "text": "What are you referring to?"
+          },
+          {
+            "text": "Can you say that again please?"
+          },
+          {
+            "text": "Come again?"
+          },
+          {
+            "text": "What do you mean?"
+          },
+          {
+            "text": "What do you mean by that?"
+          },
+          {
+            "text": "What are you talking about?"
+          },
+          {
+            "text": "What are you saying?"
+          },
+          {
+            "text": "Let's try to say that again more clearly, shall we?"
+          },
+          {
+            "text": "I need more information"
+          },
+          {
+            "text": "I don't understand"
+          },
+          {
+            "text": "I don't understand what you're saying"
+          },
+          {
+            "text": "I don't get it"
+          },
+          {
+            "text": "I didn't understand that properly"
+          },
+          {
+            "text": "I didn't quite understand what you said"
+          },
+          {
+            "text": "I didn't catch that"
+          },
+          {
+            "text": "I did not quite understand what you gave me"
+          },
+          {
+            "text": "Explains"
+          }
+        ],
+        "description": "Repeat or clarify last statement."
+      },
+      {
+        "intent": "General_Security_Assurance",
+        "examples": [
+          {
+            "text": "Do you have protection against hacks?"
+          },
+          {
+            "text": "Customer info secured?"
+          },
+          {
+            "text": "Conversation secure?"
+          },
+          {
+            "text": "Can I be sure that my stored card details are held securely?"
+          },
+          {
+            "text": "Are you safe?"
+          },
+          {
+            "text": "Are you safe on hackers?"
+          },
+          {
+            "text": "Secure conversation?"
+          },
+          {
+            "text": "What guards do you have in place to protect your customer's data?"
+          },
+          {
+            "text": "What makes this chat trustworthy?"
+          },
+          {
+            "text": "What safety measures are used to ensure that chat is secure?"
+          },
+          {
+            "text": "Why would I trust this chat?"
+          },
+          {
+            "text": "Is my payment information secure?"
+          },
+          {
+            "text": "Is there a reason to distrust this chat?"
+          },
+          {
+            "text": "Is this a trusted chat site?"
+          },
+          {
+            "text": "Will my conversation remain secured?"
+          },
+          {
+            "text": "Is this an official chat?"
+          },
+          {
+            "text": "Is this conversation secure?"
+          },
+          {
+            "text": "Precautions hackers?"
+          },
+          {
+            "text": "Protection hacks?"
+          },
+          {
+            "text": "Is my card info secure?"
+          },
+          {
+            "text": "In what way can I tell if my plastic is safe?"
+          },
+          {
+            "text": "I'd like proof of a secure chat"
+          },
+          {
+            "text": "How safe is my data?"
+          },
+          {
+            "text": "How is my credit card info secured?"
+          },
+          {
+            "text": "How do I know this chat is not a scam?"
+          },
+          {
+            "text": "How do I know if my card info is kept safe?"
+          }
+        ],
+        "description": "Express concerns about the security of the bot."
+      },
+      {
+        "intent": "Bot_Control_Start_Over",
+        "examples": [
+          {
+            "text": "We will need to begin again"
+          },
+          {
+            "text": "Actually, let's start over"
+          },
+          {
+            "text": "Back to the beginning"
+          },
+          {
+            "text": "Back to the top"
+          },
+          {
+            "text": "Begin over!"
+          },
+          {
+            "text": "Can we please start over?"
+          },
+          {
+            "text": "How can I start over?"
+          },
+          {
+            "text": "I need to reset."
+          },
+          {
+            "text": "I want start from the beginning"
+          },
+          {
+            "text": "I would like to start all over"
+          },
+          {
+            "text": "Let us reopen this again."
+          },
+          {
+            "text": "Let's go back to square one"
+          },
+          {
+            "text": "Let's pick this up from the top again."
+          },
+          {
+            "text": "One more time from the beginning"
+          },
+          {
+            "text": "Please initiate from the beginning"
+          },
+          {
+            "text": "Please reset"
+          },
+          {
+            "text": "Please start a new chat"
+          },
+          {
+            "text": "Restart"
+          },
+          {
+            "text": "Start over"
+          },
+          {
+            "text": "We need a do-over"
+          }
+        ],
+        "description": "Restart bot or current flow."
+      },
+      {
+        "intent": "Bot_Control_Change_Subject",
+        "examples": [
+          {
+            "text": "Can we talk about something else?"
+          },
+          {
+            "text": "Change topic"
+          },
+          {
+            "text": "Chat about something else"
+          },
+          {
+            "text": "Help me with this other question"
+          },
+          {
+            "text": "Here is another issue"
+          },
+          {
+            "text": "I have one more question"
+          },
+          {
+            "text": "Let us change the topic"
+          },
+          {
+            "text": "Discuss something else"
+          },
+          {
+            "text": "A different matter"
+          },
+          {
+            "text": "Talk about something else"
+          },
+          {
+            "text": "Let us talk about something else"
+          },
+          {
+            "text": "Another thing"
+          }
+        ],
+        "description": "Change to a different topic."
+      },
+      {
+        "intent": "Bot_Control_Unsure",
+        "examples": [
+          {
+            "text": "I don t know what you want"
+          },
+          {
+            "text": "I have no idea, actually"
+          },
+          {
+            "text": "I have no idea what you are looking for"
+          },
+          {
+            "text": "I haven't got a clue"
+          },
+          {
+            "text": "I m not certain I get what you re saying"
+          },
+          {
+            "text": "I m not sure what will make you happy"
+          },
+          {
+            "text": "I m not yet convinced"
+          },
+          {
+            "text": "No clue"
+          },
+          {
+            "text": "No idea"
+          },
+          {
+            "text": "To be honest, I m really not sure"
+          },
+          {
+            "text": "You got me"
+          },
+          {
+            "text": "I don t know what you need"
+          }
+        ],
+        "description": "Indicate no definite answer to a question."
+      },
+      {
+        "intent": "General_Negative_Feedback",
+        "examples": [
+          {
+            "text": "You're really irritating"
+          },
+          {
+            "text": "Quit annoying me"
+          },
+          {
+            "text": "It is annoying"
+          },
+          {
+            "text": "I hate you"
+          },
+          {
+            "text": "I hate this!"
+          },
+          {
+            "text": "I do not like you"
+          },
+          {
+            "text": "Hate you"
+          },
+          {
+            "text": "Everyone hates you"
+          },
+          {
+            "text": "Do not like you?"
+          },
+          {
+            "text": "You're really frustrating"
+          },
+          {
+            "text": "You do not seem smart"
+          },
+          {
+            "text": "You are very frustrating"
+          },
+          {
+            "text": "You are on my nerves"
+          },
+          {
+            "text": "You are having delusions"
+          },
+          {
+            "text": "Why are you stupid?"
+          },
+          {
+            "text": "Why are you so annoying?"
+          },
+          {
+            "text": "Stupid"
+          },
+          {
+            "text": "Robots are stupid"
+          },
+          {
+            "text": "Robots are boring"
+          },
+          {
+            "text": "You're too stupid"
+          }
+        ],
+        "description": "Express unfavorable feedback."
+      },
+      {
+        "intent": "General_About_You",
+        "examples": [
+          {
+            "text": "How do you function?"
+          },
+          {
+            "text": "Can I use another language?"
+          },
+          {
+            "text": "About you"
+          },
+          {
+            "text": "Who are you?"
+          },
+          {
+            "text": "Why are you here?"
+          },
+          {
+            "text": "How can I configure you?"
+          },
+          {
+            "text": "Do you know who you are?"
+          },
+          {
+            "text": "Do you have a name?"
+          },
+          {
+            "text": "Describe your self"
+          },
+          {
+            "text": "Where were you born?"
+          },
+          {
+            "text": "Where are you from?"
+          },
+          {
+            "text": "What's your name?"
+          },
+          {
+            "text": "What should I know about you?"
+          },
+          {
+            "text": "What languages do you speak?"
+          },
+          {
+            "text": "Tell me something about yourself"
+          },
+          {
+            "text": "Tell me about your life"
+          },
+          {
+            "text": "Let us talk about you"
+          },
+          {
+            "text": "Introduce your self"
+          },
+          {
+            "text": "I want to set up the chat bot for my shop"
+          },
+          {
+            "text": "How old are you?"
+          }
+        ],
+        "description": "Request generic personal attributes."
+      }
+    ],
+    "entities": [
+      {
+        "entity": "answer",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "a programing language that helps in everything",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "these are my database example",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "a programing languGE",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "sys-number",
+        "values": [],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "sys-date",
+        "values": [],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "name",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Ashitha",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Smith blake",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Ashitha P Gowda",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "smith",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "paranehsa k t",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "sys-percentage",
+        "values": [],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "email",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Tejas55bk@gmail.com",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "ashithapgowda@yahoo.in",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "surajmshivkumar@gmail.com",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      }
+    ],
+    "metadata": {
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      },
+      "from-sample": true
+    },
+    "webhooks": [
+      {
+        "url": "https://us-south.functions.cloud.ibm.com/api/v1/web/8831e2b2-7037-4bf7-a513-2316191c3714/default/vo-python.json",
+        "name": "main_webhook",
+        "headers": []
+      }
+    ],
+    "dialog_nodes": [
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$webhook_result_2"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1594713573359",
+        "conditions": "$webhook_result_2",
+        "dialog_node": "response_8_1594722814708",
+        "previous_sibling": "node_10_1594722847071"
+      },
+      {
+        "type": "response_condition",
+        "parent": "node_1_1594713573359",
+        "conditions": "anything_else",
+        "dialog_node": "response_10_1594722817676",
+        "previous_sibling": "response_8_1594722814708"
+      },
+      {
+        "type": "standard",
+        "title": "a_2",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$name, shall I confirm your answer"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1594713573359",
+        "context": {
+          "answer2": "input.text"
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_5_1594786152381"
+        },
+        "dialog_node": "node_10_1594722847071"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_4_1594709926271",
+        "event_name": "focus",
+        "dialog_node": "handler_8_1594709926274",
+        "previous_sibling": "handler_2_1594709926274"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_4_1594709926271",
+        "context": {
+          "name": "@name"
+        },
+        "conditions": "@name",
+        "event_name": "input",
+        "dialog_node": "handler_2_1594709926274"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Shall I Confirm your answer?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1594788511042",
+        "conditions": "@answer",
+        "dialog_node": "response_2_1594788735372"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_6_1594736287592",
+        "event_name": "focus",
+        "dialog_node": "handler_5_1594736287595",
+        "previous_sibling": "handler_3_1594736287595"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_6_1594736287592",
+        "context": {
+          "answer": "@answer"
+        },
+        "conditions": "@answer",
+        "event_name": "input",
+        "dialog_node": "handler_3_1594736287595"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$webhook_result_1.qOne"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1594713035870",
+        "conditions": "$webhook_result_1",
+        "dialog_node": "response_5_1594713101829"
+      },
+      {
+        "type": "slot",
+        "parent": "node_7_1594708614261",
+        "variable": "$name",
+        "dialog_node": "slot_4_1594709926271"
+      },
+      {
+        "type": "slot",
+        "parent": "node_2_1594713275255",
+        "variable": "$answer",
+        "dialog_node": "slot_6_1594736287592"
+      },
+      {
+        "type": "response_condition",
+        "parent": "node_4_1594787737316",
+        "conditions": "anything_else",
+        "dialog_node": "response_1_1594787749810",
+        "previous_sibling": "response_1_1594787748035"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$webhook_result_3"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1594787737316",
+        "conditions": "$webhook_result_3",
+        "dialog_node": "response_1_1594787748035"
+      },
+      {
+        "type": "response_condition",
+        "parent": "node_10_1594788265378",
+        "conditions": "anything_else",
+        "dialog_node": "response_1_1594788298014",
+        "previous_sibling": "response_1_1594788296592"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$webhook_result_4"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1594788265378",
+        "conditions": "$webhook_result_4",
+        "dialog_node": "response_1_1594788296592"
+      },
+      {
+        "type": "standard",
+        "title": "conformation_2",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I have successfully saved your answer."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_8_1594786265509"
+        },
+        "conditions": "#Bot_Control_Approve_Response",
+        "dialog_node": "node_5_1594786152381",
+        "previous_sibling": "node_1_1594713573359"
+      },
+      {
+        "type": "standard",
+        "title": "Thanking",
+        "metadata": {
+          "_customization": {
+            "mcr": false
+          }
+        },
+        "dialog_node": "node_5_1594790968072",
+        "previous_sibling": "node_8_1594788689598"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_5_1594790968072",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "pQ_2",
+        "actions": [
+          {
+            "name": "main_webhook",
+            "type": "webhook",
+            "parameters": {
+              "": ""
+            },
+            "result_variable": "webhook_result_4"
+          }
+        ],
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_8_1594788511042"
+        },
+        "dialog_node": "node_10_1594788265378",
+        "previous_sibling": "node_3_1594788042266"
+      },
+      {
+        "type": "standard",
+        "title": "pC_2",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$name, your answer is successfully saved"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1594790968072"
+        },
+        "conditions": "#Bot_Control_Approve_Response",
+        "dialog_node": "node_8_1594788689598",
+        "previous_sibling": "node_8_1594788511042"
+      },
+      {
+        "type": "frame",
+        "title": "answers",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "shall I confirm your answer."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "context": {},
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_1_1594713573359"
+        },
+        "conditions": "#answer",
+        "dialog_node": "node_2_1594713275255",
+        "previous_sibling": "node_5_1594713035870"
+      },
+      {
+        "type": "standard",
+        "title": "pQ_1",
+        "actions": [
+          {
+            "name": "main_webhook",
+            "type": "webhook",
+            "parameters": {},
+            "result_variable": "webhook_result_3"
+          }
+        ],
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_7_1594787827259"
+        },
+        "dialog_node": "node_4_1594787737316",
+        "previous_sibling": "node_5_1594786364055"
+      },
+      {
+        "type": "standard",
+        "title": "Intimation",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$name, This will be your technical round, answer the questions accordingly"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_5_1594710770425"
+        },
+        "dialog_node": "node_1_1594710544378",
+        "previous_sibling": "node_7_1594708614261"
+      },
+      {
+        "type": "standard",
+        "title": "conformation_3",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$name, here is your first personality analysis question"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1594787737316"
+        },
+        "conditions": "#Bot_Control_Approve_Response",
+        "dialog_node": "node_5_1594786364055",
+        "previous_sibling": "node_8_1594786265509"
+      },
+      {
+        "type": "standard",
+        "title": "Q_2",
+        "actions": [
+          {
+            "name": "main_webhook",
+            "type": "webhook",
+            "parameters": {
+              "answer": "$answer"
+            },
+            "result_variable": "webhook_result_2"
+          }
+        ],
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_10_1594722847071"
+        },
+        "conditions": "#Bot_Control_Approve_Response",
+        "dialog_node": "node_1_1594713573359",
+        "previous_sibling": "node_2_1594713275255"
+      },
+      {
+        "type": "standard",
+        "title": "intimation_personalinsights",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$name, You next round will check your personality, Please answer accordingly."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_5_1594786364055"
+        },
+        "dialog_node": "node_8_1594786265509",
+        "previous_sibling": "node_5_1594786152381"
+      },
+      {
+        "type": "standard",
+        "title": "pC_1",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Your answer is successfully saved."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_10_1594788265378"
+        },
+        "conditions": "#Bot_Control_Approve_Response",
+        "dialog_node": "node_3_1594788042266",
+        "previous_sibling": "node_7_1594787827259"
+      },
+      {
+        "type": "standard",
+        "title": "authentication",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here comes your first question, $name All the best."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1594713035870"
+        },
+        "conditions": "#Bot_Control_Approve_Response",
+        "dialog_node": "node_5_1594710770425",
+        "previous_sibling": "node_1_1594710544378"
+      },
+      {
+        "type": "standard",
+        "title": "questions",
+        "actions": [
+          {
+            "name": "main_webhook",
+            "type": "webhook",
+            "parameters": {},
+            "result_variable": "webhook_result_1"
+          }
+        ],
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_2_1594713275255"
+        },
+        "dialog_node": "node_5_1594713035870",
+        "previous_sibling": "node_5_1594710770425"
+      },
+      {
+        "type": "standard",
+        "title": "pA_1",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "$name, Shall I confirm your answer?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "context": {
+          "answer": "input"
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_3_1594788042266"
+        },
+        "conditions": "#answer",
+        "dialog_node": "node_7_1594787827259",
+        "previous_sibling": "node_4_1594787737316"
+      },
+      {
+        "type": "frame",
+        "title": "name",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello $name. Welcome to your Recruitment process."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "context": {},
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_1_1594710544378"
+        },
+        "conditions": "#name",
+        "dialog_node": "node_7_1594708614261",
+        "previous_sibling": "node_6_1594734068234"
+      },
+      {
+        "type": "standard",
+        "title": "pA_2",
+        "actions": [],
+        "metadata": {
+          "callout": {
+            "name": "main_webhook",
+            "type": "webhook",
+            "parameters": {
+              "answer": "$answer"
+            },
+            "result_variable": "webhook_result_5"
+          },
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_8_1594788689598"
+        },
+        "conditions": "#answer",
+        "dialog_node": "node_8_1594788511042",
+        "previous_sibling": "node_10_1594788265378"
+      },
+      {
+        "type": "standard",
+        "title": "welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello, i am VO and you are?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_7_1594708614261"
+        },
+        "conditions": "welcome",
+        "dialog_node": "node_6_1594734068234"
+      }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+      "off_topic": {
+        "enabled": true
+      },
+      "disambiguation": {
+        "prompt": "Did you mean:",
+        "enabled": true,
+        "randomize": true,
+        "max_suggestions": 5,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above"
+      },
+      "system_entities": {
+        "enabled": true
+      },
+      "human_agent_assist": {
+        "prompt": "Did you mean:"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false,
+    "name": "My first skill",
+    "language": "en",
+    "description": ""
+  }
