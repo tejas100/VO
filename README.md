@@ -54,6 +54,18 @@ View your app at: http://localhost:8000
 As soon as candidate upload his/her resume vision api will return analyzed data, which is then stored into the ibm cloudant db.
 
 
+## 3. Cloud Actions and watson assistant
+
+Ibm cloud actions will helps to connect watson assistant to ibm cloud cloudent database.
+
+  ```
+#ibm-cloud watson assistant and cloud action
+cd watson assistant
+  ```
+
+
+
+
 
 
 
