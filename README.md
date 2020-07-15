@@ -8,8 +8,9 @@ You'll need the following:
 * [Cloud Foundry CLI](https://github.com/cloudfoundry/cli#downloads)
 * [Git](https://git-scm.com/downloads)
 * [Python](https://www.python.org/downloads/)
-* [Google cloud account] (https://cloud.google.com/)
-* [Google Vision api] (https://cloud.google.com/)
+* [Google cloud account](https://cloud.google.com/)
+* [Google Vision api](https://cloud.google.com/)
+
 
 ## 1. Clone the sample app
 
