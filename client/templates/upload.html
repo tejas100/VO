@@ -10,6 +10,39 @@
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+
+     <style type="text/css">
+        
+                .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn1 {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+
+
+  .btn1:hover{
+  background-color: gray;
+}
+}
+
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+      </style> 
  
    
 </head>
@@ -18,21 +51,22 @@
    <div class='container'>
     <div class='row'>
         <div class='col'>
-        <h1>Upload Image</h1>
+        <h1>Welcome to AI Recruiter</h1>
         <hr>
 
         <form action="/" method="POST" enctype="multipart/form-data">
 
 
-        <div class="form-group">
-          <label>Select image</label>
-          <div class="custom-file">
+        <div class="upload-btn-wrapper">
+          
+          <button class="btn1">Upload your resume</button>
+          
             <input type="file" class="custom-file-input" name="image" id="image">
            
-          </div>
+          
         </div>
 
-
+      <br>
         <button type="submit" class="btn btn-primary">Upload</button>
 
 

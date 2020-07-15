@@ -18,6 +18,12 @@ Now you're ready to start working with the app. Clone the repo and change to the
   ```
 git clone https://github.com/tejas100/VO
 cd VO
+
+#To run the client side application,to scan the documents. 
+cd client 
+
+#ibm-cloud watson assistant and cloud action
+cd watson assistant
   ```
 
 
@@ -36,3 +42,6 @@ python hello.py
   ```
 
  View your app at: http://localhost:8000
+
+![](static/rimg/uploadfile.png)
+
