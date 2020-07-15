@@ -2,7 +2,7 @@
 
 
 ## AI Recruiter Demo
-
+![](client/static/rimg/vo.gif)
 
 
 
